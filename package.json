@@ -1,0 +1,22 @@
+{
+  "name": "solarized-neue",
+  "displayName": "Solarized Neue",
+  "description": "Customized solarized dark",
+  "version": "0.0.3",
+  "publisher": "diamondmind",
+  "engines": {
+    "vscode": "^1.22.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Solarized Neue",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Solarized Neue-color-theme.json"
+      }
+    ]
+  }
+}
