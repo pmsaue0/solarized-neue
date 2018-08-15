@@ -2,8 +2,9 @@
   "name": "solarized-neue",
   "displayName": "Solarized Neue",
   "description": "Customized solarized dark",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "publisher": "diamondmind",
+  "repository": "https://github.com/pmsaue0/solarized-neue",
   "engines": {
     "vscode": "^1.22.0"
   },
