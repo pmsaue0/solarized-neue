@@ -2,7 +2,6 @@
   "tokenColors": [
     {
       "settings": {
-        "background": "#042029",
         "foreground": "#839496",
         "searchHighlight": "#2AA198"
       }
@@ -1453,7 +1452,6 @@
   ],
   "colors": {
     "focusBorder": "#FFFFFF00",
-    "editorCursor.foreground": "#FFCC00",
     "editorRuler.foreground": "#42424270",
     "scrollbar.shadow": "#21212100",
     "editorLink.activeForeground": "#EEFFFF",
@@ -1466,10 +1464,6 @@
     "editorBracketMatch.border": "#FFCC0050",
     "editorBracketMatch.background": "#212121",
     "editorWhitespace.foreground": "#EEFFFF40",
-    "editor.background": "#212121",
-    "editor.foreground": "#EEFFFF",
-    "editor.lineHighlightBackground": "#00000050",
-    "editor.selectionBackground": "#61616150",
     "editor.selectionHighlightBackground": "#FFCC0020",
     "editorOverviewRuler.border": "#212121",
     "editorHoverWidget.background": "#212121",

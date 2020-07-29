@@ -1,28 +1,37 @@
 {
-	"name": "solarized-neue",
-	"displayName": "Solarized Neue",
-	"description": "Customized solarized dark",
-	"version": "0.0.4",
-	"publisher": "diamondmind",
-	"repository": "https://github.com/pmsaue0/solarized-neue",
-	"engines": {
-		"vscode": "^1.22.0"
-	},
-	"categories": [
-		"Themes"
-	],
-	"contributes": {
-		"themes": [
-			{
-				"label": "Solarized Neue",
-				"uiTheme": "vs-dark",
-				"path": "./themes/Solarized Neue-color-theme.json"
-			}
-		]
-	},
-	"__metadata": {
-		"id": "cdc2d5df-516e-41ec-ac18-eb52f480a8b2",
-		"publisherId": "2e56e1b8-6752-4bb4-9dbf-762507c211b5",
-		"publisherDisplayName": "Phillip Sauerbeck"
-	}
+  "name": "solarized-neue",
+  "displayName": "Solarized Neue & Owl",
+  "description": "Customized solarized theme",
+  "version": "0.0.6",
+  "publisher": "diamondmind",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pmsaue0/solarized-neue"
+  },
+  "engines": {
+    "vscode": "^1.22.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Solarized Neue",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Solarized-Neue-color-theme.json"
+      },
+      {
+        "label": "Solarized Owl",
+        "uiTheme": "vs",
+        "path": "./themes/Solarized-Owl-color-theme.json"
+      }
+    ]
+  },
+  "__metadata": {
+    "id": "cdc2d5df-516e-41ec-ac18-eb52f480a8b2",
+    "publisherId": "2e56e1b8-6752-4bb4-9dbf-762507c211b5",
+    "publisherDisplayName": "Phillip Sauerbeck"
+  }
 }

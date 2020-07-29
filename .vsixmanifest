@@ -12,23 +12,18 @@
       <Property Id="Microsoft.VisualStudio.Code.Engine" Value="^1.22.0" />
       <Property Id="Microsoft.VisualStudio.Code.ExtensionDependencies" Value="" />
       <Property Id="Microsoft.VisualStudio.Code.ExtensionPack" Value="" />
-      
+
         <Property Id="Microsoft.VisualStudio.Services.Links.Source" Value="https://github.com/pmsaue0/solarized-neue" />
         <Property Id="Microsoft.VisualStudio.Services.Links.Getstarted" Value="https://github.com/pmsaue0/solarized-neue" />
-        
+
           <Property Id="Microsoft.VisualStudio.Services.Links.GitHub" Value="https://github.com/pmsaue0/solarized-neue" />
-        
-      
-      
-      
-      
-      
+
       <Property Id="Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown" Value="true" />
-      
-      
+
+
     </Properties>
-    
-    
+
+
   </Metadata>
   <Installation>
     <InstallationTarget Id="Microsoft.VisualStudio.Code"/>
