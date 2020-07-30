@@ -422,7 +422,6 @@
         "entity.scope.name.cpp",
         "support.function.powershell",
         "variable.other.object.js",
-        "keyword.operator.logical.ruby",
         "keyword.other.unit.css",
         "markup.inline.raw.markdown"
       ],
@@ -441,12 +440,10 @@
       "scope": [
         "brick-orange",
         "punctuation.definition.constant.ruby",
-        "punctuation.definition.string",
         "punctuation.definition.parameters",
         "punctuation.definition.list.begin",
         "punctuation.definition.list.end",
         "punctuation.definition.list",
-        "punctuation.definition.string.begin.markdown",
         "punctuation.separator.arguments",
         "entity.other.attribute-name.pseudo-class.css",
         "punctuation.section.embedded",
@@ -551,6 +548,7 @@
     {
       "scope": [
         "gold",
+        "keyword.operator.logical.ruby",
         "keyword.control.def.ruby",
         "meta.block.parameters.ruby",
         "keyword.control.conditional.js",
@@ -589,7 +587,17 @@
       }
     },
     {
-      "scope": ["red", "support.constant.property-value.css"],
+      "scope": [
+        "red",
+        "support.constant.property-value.css",
+        "punctuation.definition.string",
+        "punctuation.definition.string.begin.markdown",
+        "source.elixir punctuation.definition.string",
+        "punctuation.definition.string.markdown",
+        "punctuation.definition.string.begin.markdown",
+        "punctuation.definition.string.end.markdown",
+        "meta.link.inline.markdown punctuation.definition.string"
+      ],
       "settings": {
         "foreground": "#DC322F"
       }
@@ -628,7 +636,6 @@
         "keyword.other.unit.css",
         "source.elixir support.type.elixir",
         "source.elixir meta.module.elixir entity.name.class.elixir",
-        "source.elixir punctuation.definition.string",
         "source.elixir entity.name.function",
         "source.elixir constant.other.symbol.elixir",
         "source.elixir variable.other.readwrite.module.elixir",
@@ -642,10 +649,6 @@
         "markup.heading.setext.1.markdown",
         "markup.heading.setext.2.markdown",
         "markup.bold.markdown",
-        "punctuation.definition.string.markdown",
-        "punctuation.definition.string.begin.markdown",
-        "punctuation.definition.string.end.markdown",
-        "meta.link.inline.markdown punctuation.definition.string",
         "beginning.punctuation.definition.list.markdown",
         "markup.inline.raw.string.markdown",
         "variable.other.global.php",
