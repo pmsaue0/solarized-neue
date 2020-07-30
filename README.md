@@ -4,8 +4,8 @@ Elegant theme with color-tokens I've been refining for years. Dev focus on CSS, 
 
 ## Solarized Neue
 
-![Neue Dark Theme](https://https://github.com/pmsaue0/solarized-neue/raw/master/neue.png)
+![Neue Dark Theme](https://github.com/pmsaue0/solarized-neue/raw/master/neue.png)
 
 ## Solarized Yuki
 
-![Yuki Light Theme](https://https://github.com/pmsaue0/solarized-neue/raw/master/yuki.png)
+![Yuki Light Theme](https://github.com/pmsaue0/solarized-neue/raw/master/yuki.png)
