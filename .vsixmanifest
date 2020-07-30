@@ -3,7 +3,7 @@
   <Metadata>
     <Identity Language="en-US" Id="solarized-neue" Version="0.0.4" Publisher="diamondmind"/>
     <DisplayName>Solarized Neue</DisplayName>
-    <Description xml:space="preserve">Customized solarized dark</Description>
+    <Description xml:space="preserve">Customized solarized dark and light</Description>
     <Tags>theme,color-theme</Tags>
     <Categories>Themes</Categories>
     <GalleryFlags>Public</GalleryFlags>

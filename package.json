@@ -1,6 +1,6 @@
 {
   "name": "solarized-neue",
-  "displayName": "Solarized Neue & Owl",
+  "displayName": "Solarized Neue & Yuki",
   "description": "Customized solarized theme",
   "version": "0.3.0",
   "publisher": "diamondmind",
@@ -23,9 +23,9 @@
         "path": "./themes/Solarized-Neue-color-theme.json"
       },
       {
-        "label": "Solarized Owl",
+        "label": "Solarized Yuki",
         "uiTheme": "vs",
-        "path": "./themes/Solarized-Owl-color-theme.json"
+        "path": "./themes/Solarized-Yuki-color-theme.json"
       }
     ]
   },
