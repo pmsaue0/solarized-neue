@@ -186,10 +186,11 @@
   "tokenColors": [
     {
       "scope": [
-        "constant.numeric.css",
         "bold",
+        "support.class.ruby",
+        "variable",
         "entity.name.type.class.ruby",
-        "variable.scss",
+        "entity.other.attribute-name.id",
         "entity.name.tag.id.haml"
       ],
       "settings": {
@@ -199,7 +200,15 @@
     {
       "scope": [
         "italic",
+        "variable.other.block.ruby",
+        "variable.other.property.js",
+        "storage.type.js",
+        "variable.other.ruby",
         "quote",
+        "keyword.other.unit.px.css",
+        "keyword.other.unit.rem.css",
+        "keyword.other.unit.em.css",
+        "keyword.other.unit.percentage.css",
         "markup.italic.markdown",
         "entity.name.function",
         "meta.tag.sgml.doctype.html",
@@ -256,6 +265,7 @@
       "scope": [
         "darkGray",
         "quote",
+        "meta.property-value.scss",
         "markup.quote.markdown",
         "string.template punctuation.definition.string",
         "variable.parameter.function.coffee",
@@ -267,10 +277,6 @@
         "meta.import.js variable.other",
         "variable.other.meta.export.js",
         "meta.export.js variable.other",
-        "variable.other.object.js",
-        "variable.other.object.jsx",
-        "variable.object.property.js",
-        "variable.object.property.jsx",
         "support.class.js",
         "variable.js",
         "variable.other.js",
@@ -295,7 +301,6 @@
         "meta.import.tsx punctuation.definition.block",
         "meta.export.ts punctuation.definition.block",
         "meta.export.tsx punctuation.definition.block",
-        "variable.other.readwrite.js",
         "variable.parameter",
         "meta.jsx.children",
         "meta.jsx.children.js",
@@ -336,14 +341,20 @@
       }
     },
     {
-      "scope": "comment",
+      "scope": ["comment"],
       "settings": {
         "foreground": "#999999",
         "fontStyle": "italic"
       }
     },
     {
-      "scope": ["text-color-dark"],
+      "scope": [
+        "text-color-dark",
+        "keyword.operator.assignment",
+        "variable.other.block.ruby",
+        "variable.scss",
+        "keyword.operator.assignment.js"
+      ],
       "settings": {
         "foreground": "#403f53"
       }
@@ -367,6 +378,9 @@
     {
       "scope": [
         "teal",
+        "variable",
+        "meta.var-single-variable.expr.js",
+        "meta.var.expr.js",
         "string.quoted",
         "meta.structure.dictionary.value.json string.quoted.double",
         "support.type.property-name.css",
@@ -416,10 +430,17 @@
         "foreground": "#2AA198"
       }
     },
+    {
+      "scope": ["teal-soft", "storage.type.js"],
+      "settings": {
+        "foreground": "#2AA198aa"
+      }
+    },
 
     {
       "scope": [
         "brick-orange",
+        "punctuation.definition.constant.ruby",
         "punctuation.definition.string",
         "punctuation.definition.parameters",
         "punctuation.definition.list.begin",
@@ -478,13 +499,22 @@
     {
       "scope": [
         "purple",
+        "support.class.ruby",
+        "variable.other.object.js",
+        "variable.other.object.jsx",
+        "variable.object.property.js",
+        "variable.object.property.jsx",
+        "variable.other.property.js",
+        "variable.scss",
+        "constant.language.symbol.hashkey.ruby",
+        "punctuation.definition.constant.hashkey.ruby",
         "entity.name.type.class.ruby",
         "entity.name.tag.id.haml",
         "punctuation.definition.constant",
+        "punctuation.definition.constant.ruby",
         "constant.language.symbol.ruby",
         "support.function",
         "punctuation.separator.method.ruby",
-        "variable.scss",
         "meta.property-list entity.name.tag.reference",
         "variable.parameter.function.js",
         "constant.other.color.rgb-value punctuation.definition.constant",
@@ -500,8 +530,7 @@
         "constant.character.escape",
         "constant.other.color",
         "entity.other.attribute-name.id",
-        "meta.attribute-selector.css entity.other.attribute-name.attribute",
-        "variable.other.readwrite.js"
+        "meta.attribute-selector.css entity.other.attribute-name.attribute"
       ],
       "settings": {
         "foreground": "#5253C4"
@@ -509,10 +538,24 @@
     },
     {
       "scope": [
+        "purple-soft",
+        "keyword.other.unit.px.css",
+        "keyword.other.unit.rem.css",
+        "keyword.other.unit.em.css",
+        "keyword.other.unit.percentage.css"
+      ],
+      "settings": {
+        "foreground": "#5253C4aa"
+      }
+    },
+    {
+      "scope": [
         "gold",
-        "constant.language.symbol.hashkey.ruby",
+        "keyword.control.def.ruby",
+        "meta.block.parameters.ruby",
+        "keyword.control.conditional.js",
+        "keyword.control.conditional.ts",
         "keyword.control.ruby",
-        "keyword.operator.assignment",
         "entity.name.tag.css",
         "entity.name.tag.less",
         "entity.name.tag.custom.css",
@@ -523,35 +566,40 @@
       }
     },
     {
-      "scope": ["gold-soft", "punctuation.definition.constant.hashkey.ruby"],
+      "scope": ["gold-soft"],
       "settings": {
         "foreground": "#D3960077"
       }
     },
     {
       "scope": [
-        "red-pink",
+        "pink",
         "constant.language",
         "support.class",
-        "support.constant.property-value.css",
         "markup.underline.link.markdown",
         "markup.underline.link.image.markdown",
         "markup.deleted.diff",
         "variable.interpolation",
         "invalid",
-        "invalid.illegal",
-        "variable.other.readwrite.js"
+        "meta.at-rule.include.scss",
+        "invalid.illegal"
       ],
       "settings": {
         "foreground": "#D33682"
+      }
+    },
+    {
+      "scope": ["red", "support.constant.property-value.css"],
+      "settings": {
+        "foreground": "#DC322F"
       }
     },
 
     {
       "scope": [
         "blue",
+        "source.ruby",
         "variable.other.readwrite.instance",
-        "variable",
         "string.regexp",
         "string.regexp keyword.other",
         "variable.parameter.function.python",
@@ -614,14 +662,7 @@
         "string",
         "support.constant.math",
         "constant.character",
-        "constant.other"
-      ],
-      "settings": {
-        "foreground": "#2466D2"
-      }
-    },
-    {
-      "scope": [
+        "constant.other",
         "keyword.operator.relational",
         "keyword.other.unit.scss",
         "keyword.other.unit.sass",
@@ -673,8 +714,6 @@
         "keyword.control.from.js",
         "keyword.control.from.ts",
         "keyword.control.from.tsx",
-        "keyword.control.conditional.js",
-        "keyword.control.conditional.ts",
         "keyword.control.switch.js",
         "keyword.control.switch.ts",
         "source.go keyword.package.go",
@@ -693,7 +732,13 @@
         "meta.delimiter.period"
       ],
       "settings": {
-        "foreground": "#006CD2"
+        "foreground": "#2466D2"
+      }
+    },
+    {
+      "scope": ["blue-soft", "keyword.control.def.ruby"],
+      "settings": {
+        "foreground": "#2466D2aa"
       }
     }
   ]
