@@ -1,5 +1,6 @@
 {
   "type": "light",
+  "name": "Solarized Yuki",
   "colors": {
     "editorIndentGuide.activeBackground": "#888888",
     // Base
@@ -185,14 +186,7 @@
   },
   "tokenColors": [
     {
-      "scope": [
-        "bold",
-        "support.class.ruby",
-        "variable",
-        "entity.name.type.class.ruby",
-        "entity.other.attribute-name.id",
-        "entity.name.tag.id.haml"
-      ],
+      "scope": ["bold", "support.class.ruby", "variable", "entity.name.type.class.ruby", "entity.other.attribute-name.id", "entity.name.tag.id.haml"],
       "settings": {
         "fontStyle": "bold"
       }
@@ -330,14 +324,9 @@
       }
     },
     {
-      "scope": [
-        "cyan",
-        "variable.other.jsdoc",
-        "variable.other.phpdoc",
-        "variable.assignment.coffee"
-      ],
+      "scope": ["cyan", "variable.other.jsdoc", "variable.other.phpdoc", "variable.assignment.coffee"],
       "settings": {
-        "foreground": "#57eaf1"
+        "foreground": "#2EA9FF"
       }
     },
     {
@@ -348,23 +337,13 @@
       }
     },
     {
-      "scope": [
-        "text-color-dark",
-        "keyword.operator.assignment",
-        "variable.other.block.ruby",
-        "variable.scss",
-        "keyword.operator.assignment.js"
-      ],
+      "scope": ["text-color-dark", "keyword.operator.assignment", "variable.other.block.ruby", "variable.scss", "keyword.operator.assignment.js"],
       "settings": {
         "foreground": "#403f53"
       }
     },
     {
-      "scope": [
-        "light-gray",
-        "comment.line.double-slash",
-        "punctuation.definition.tag.haml"
-      ],
+      "scope": ["light-gray", "comment.line.double-slash", "punctuation.definition.tag.haml"],
       "settings": {
         "foreground": "#cccccc"
       }
@@ -534,13 +513,7 @@
       }
     },
     {
-      "scope": [
-        "purple-soft",
-        "keyword.other.unit.px.css",
-        "keyword.other.unit.rem.css",
-        "keyword.other.unit.em.css",
-        "keyword.other.unit.percentage.css"
-      ],
+      "scope": ["purple-soft", "keyword.other.unit.px.css", "keyword.other.unit.rem.css", "keyword.other.unit.em.css", "keyword.other.unit.percentage.css"],
       "settings": {
         "foreground": "#5253C4aa"
       }
