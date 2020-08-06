@@ -72,7 +72,7 @@
     "scrollbar.shadow": "#CCCCCC",
     // Tabs
     "tab.border": "#F0F0F0",
-    "tab.activeBackground": "#F6F6F6",
+    "tab.activeBackground": "#fcfcfc",
     "tab.activeForeground": "#403f53",
     "tab.inactiveForeground": "#403f53",
     "tab.inactiveBackground": "#F0F0F0",
