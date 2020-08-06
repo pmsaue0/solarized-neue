@@ -149,63 +149,18 @@
     {
       "scope": [
         "italic",
-        "variable.other.block.ruby",
+        "support.function.core.ruby",
         "variable.other.property.js",
         "storage.type.js",
-        "variable.other.ruby",
-        "quote",
         "keyword.other.unit.px.css",
         "keyword.other.unit.rem.css",
         "keyword.other.unit.em.css",
         "keyword.other.unit.percentage.css",
-        "markup.italic.markdown",
-        "entity.name.function",
-        "meta.tag.sgml.doctype.html",
-        "entity.name.tag.less",
-        "meta.selector",
-        "entity.name.tag.doctype",
-        "meta.tag.sgml.doctype",
-        "meta.delimiter.period",
-        "keyword.operator.comparison",
-        "keyword.control.flow.js",
-        "keyword.control.flow.ts",
-        "keyword.control.flow.tsx",
-        "keyword.control.module.ruby",
-        "keyword.control.class.ruby",
-        "keyword.control.def.ruby",
-        "keyword.control.loop.js",
-        "keyword.control.loop.ts",
-        "keyword.control.import.js",
-        "keyword.control.import.ts",
-        "keyword.control.import.tsx",
-        "keyword.control.from.js",
-        "keyword.control.from.ts",
-        "keyword.control.from.tsx",
-        "source.go keyword.package.go",
-        "source.go keyword.import.go",
-        "source.go keyword.function.go",
-        "source.go keyword.type.go",
-        "source.go keyword.struct.go",
-        "source.go keyword.interface.go",
-        "source.go keyword.const.go",
-        "source.go keyword.var.go",
-        "source.go keyword.map.go",
-        "source.go keyword.channel.go",
-        "source.go keyword.control.go",
         "keyword.control",
-        "keyword.other.unit.scss",
-        "keyword.other.unit.sass",
-        "markup.inserted.diff",
-        "entity.other.attribute-name",
-        "markup.changed",
-        "meta.diff.header.git",
-        "meta.diff.header.from-file",
-        "meta.diff.header.to-file",
-        "markup.deleted.diff",
         "italic"
       ],
       "settings": {
-        // "fontStyle": "italic"
+        "fontStyle": "italic"
       }
     },
     {
@@ -288,7 +243,7 @@
       }
     },
     {
-      "scope": ["text-color-dark"],
+      "scope": ["text-color-dark", "punctuation.section.function.ruby"],
       "settings": {
         "foreground": "#93A1A1"
       }
@@ -302,6 +257,10 @@
     {
       "scope": [
         "lime",
+        "keyword.operator.arithmetic",
+        "keyword.operator.bitwise",
+        "keyword.operator.increment",
+        "keyword.operator.ternary",
         "variable.other.block.ruby",
         "entity.name.tag.css",
         "entity.name.tag.less",
@@ -333,6 +292,7 @@
       "scope": [
         "blue",
         "entity.name.tag.html",
+        "support.function.core.ruby",
         "punctuation.definition.tag.html",
         "entity.name.tag.class.haml",
         "entity.name.tag.id.haml",
@@ -406,6 +366,7 @@
     {
       "scope": [
         "blue-soft",
+        "entity.name.tag.haml",
         "storage.type.js",
         "meta.tag",
         "entity.name.tag",
@@ -439,7 +400,6 @@
         "brick-orange",
         "support.class",
         "support.class.ruby",
-        "entity.name.tag.haml",
         "entity.name.type.ts",
         "entity.name.type.tsx",
         "entity.name.tag.yaml",
@@ -495,8 +455,9 @@
     {
       "scope": [
         "purple",
+        "constant.numeric",
+        "constant.character.numeric",
         "variable.scss",
-        "support.function.core.ruby",
         "entity.name.type.class.ruby",
         "punctuation.definition.constant",
         "punctuation.separator.method.ruby",
@@ -510,8 +471,6 @@
         "meta.attribute-selector.sass entity.other.attribute-name.attribute",
         "support.class.component.js",
         "support.class.component.tsx",
-        "constant.numeric",
-        "constant.character.numeric",
         "constant.other.color",
         "meta.attribute-selector.css entity.other.attribute-name.attribute"
       ],
@@ -535,8 +494,7 @@
         "punctuation.definition.constant.ruby",
         "constant.language.symbol.ruby",
         "support.function",
-        "variable.other.constant",
-        "keyword.operator.assignment.js"
+        "variable.other.constant"
       ],
       "settings": {
         "foreground": "#B38700"
@@ -634,17 +592,12 @@
         "constant.other",
         "keyword.other.unit.scss",
         "keyword.other.unit.sass",
-        "keyword.operator.arithmetic",
-        "keyword.operator.bitwise",
-        "keyword.operator.increment",
-        "keyword.operator.ternary",
         "markup.italic.markdown",
         "keyword.control",
         "meta.var.expr",
         "punctuation.accessor",
         "keyword",
         "source.elixir .punctuation.binary.elixir",
-        "keyword.operator.logical",
         "keyword.control.loop.js",
         "keyword.control.loop.ts",
         "keyword.control.import.js",
