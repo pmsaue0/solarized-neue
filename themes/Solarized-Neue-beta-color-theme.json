@@ -156,7 +156,6 @@
         "keyword.other.unit.rem.css",
         "keyword.other.unit.em.css",
         "keyword.other.unit.percentage.css",
-        "keyword.control",
         "italic"
       ],
       "settings": {
@@ -291,6 +290,7 @@
     {
       "scope": [
         "blue",
+        "punctuation.separator.method.ruby",
         "entity.name.tag.html",
         "support.function.core.ruby",
         "punctuation.definition.tag.html",
@@ -366,6 +366,7 @@
     {
       "scope": [
         "blue-soft",
+        "punctuation.definition.parameters",
         "entity.name.tag.haml",
         "storage.type.js",
         "meta.tag",
@@ -410,7 +411,6 @@
         "entity.name.class",
         "constant.character.escape",
         "variable.language.this.js",
-        "punctuation.definition.parameters",
         "punctuation.definition.list.begin",
         "punctuation.definition.list.end",
         "punctuation.definition.list",
@@ -460,7 +460,6 @@
         "variable.scss",
         "entity.name.type.class.ruby",
         "punctuation.definition.constant",
-        "punctuation.separator.method.ruby",
         "meta.property-list entity.name.tag.reference",
         "variable.parameter.function.js",
         "constant.other.color.rgb-value punctuation.definition.constant",
