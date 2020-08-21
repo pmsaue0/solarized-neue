@@ -186,7 +186,16 @@
   },
   "tokenColors": [
     {
-      "scope": ["bold", "support.class.ruby", "variable", "entity.name.type.class.ruby", "entity.other.attribute-name.id", "entity.name.tag.id.haml"],
+      "scope": [
+        "bold",
+        "support.class.ruby",
+        "variable.other.block.ruby",
+        "variable.other.ruby",
+        "variable",
+        "entity.name.type.class.ruby",
+        "entity.other.attribute-name.id",
+        "entity.name.tag.id.haml"
+      ],
       "settings": {
         "fontStyle": "bold"
       }
@@ -194,10 +203,8 @@
     {
       "scope": [
         "italic",
-        "variable.other.block.ruby",
         "variable.other.property.js",
         "storage.type.js",
-        "variable.other.ruby",
         "quote",
         "keyword.other.unit.px.css",
         "keyword.other.unit.rem.css",
@@ -274,7 +281,6 @@
         "support.class.js",
         "variable.js",
         "variable.other.js",
-        "variable.other.ruby",
         "string.other.link.title.markdown",
         "string.other.link.description.markdown",
         "meta.function-call.php punctuation",
@@ -337,7 +343,7 @@
       }
     },
     {
-      "scope": ["text-color-dark", "keyword.operator.assignment", "variable.other.block.ruby", "variable.scss", "keyword.operator.assignment.js"],
+      "scope": ["text-color-dark", "keyword.operator.assignment", "variable.scss", "keyword.operator.assignment.js"],
       "settings": {
         "foreground": "#403f53"
       }
@@ -358,6 +364,9 @@
       "scope": [
         "teal",
         "variable",
+        "variable.other.block.ruby",
+        "variable.other.ruby",
+        "meta.block.parameters.ruby",
         "meta.var-single-variable.expr.js",
         "meta.var.expr.js",
         "string.quoted",
@@ -523,7 +532,6 @@
         "gold",
         "keyword.operator.logical.ruby",
         "keyword.control.def.ruby",
-        "meta.block.parameters.ruby",
         "keyword.control.conditional.js",
         "keyword.control.conditional.ts",
         "keyword.control.ruby",
