@@ -149,6 +149,7 @@
     {
       "scope": [
         "italic",
+        "entity.name.function",
         "support.function.core.ruby",
         "variable.other.property.js",
         "storage.type.js",
@@ -256,6 +257,8 @@
     {
       "scope": [
         "lime",
+        "keyword.control",
+        "keyword.control.at-rule.include.scss",
         "keyword.operator.arithmetic",
         "keyword.operator.bitwise",
         "keyword.operator.increment",
@@ -290,6 +293,7 @@
     {
       "scope": [
         "blue",
+        "entity.name.function",
         "entity.name.tag.yaml",
         "punctuation.separator.method.ruby",
         "entity.name.tag.html",
@@ -341,7 +345,6 @@
         "keyword.other.special-method",
         "keyword.other.new",
         "keyword.other.debugger",
-        "keyword.control",
         "variable.language",
         "support.variable.property",
         "raw",
@@ -487,7 +490,6 @@
       "scope": [
         "gold",
         "support.type.property-name.css",
-        "entity.name.function",
         "constant.language.symbol.hashkey.ruby",
         "punctuation.definition.constant.hashkey.ruby",
         "punctuation.definition.constant.ruby",
@@ -592,7 +594,6 @@
         "keyword.other.unit.scss",
         "keyword.other.unit.sass",
         "markup.italic.markdown",
-        "keyword.control",
         "meta.var.expr",
         "punctuation.accessor",
         "keyword",

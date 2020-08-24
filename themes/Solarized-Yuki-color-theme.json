@@ -418,7 +418,7 @@
       }
     },
     {
-      "scope": ["teal-soft", "storage.type.js"],
+      "scope": ["teal-soft"],
       "settings": {
         "foreground": "#2AA198aa"
       }
@@ -484,6 +484,7 @@
     {
       "scope": [
         "purple",
+        "variable.other.readwrite.js",
         "support.class.ruby",
         "variable.other.object.js",
         "variable.other.object.jsx",
@@ -522,7 +523,7 @@
       }
     },
     {
-      "scope": ["purple-soft", "keyword.other.unit.px.css", "keyword.other.unit.rem.css", "keyword.other.unit.em.css", "keyword.other.unit.percentage.css"],
+      "scope": ["purple-soft", "storage.type.js", "keyword.other.unit.px.css", "keyword.other.unit.rem.css", "keyword.other.unit.em.css", "keyword.other.unit.percentage.css"],
       "settings": {
         "foreground": "#5253C4aa"
       }
