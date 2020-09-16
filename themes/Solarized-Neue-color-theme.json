@@ -141,7 +141,17 @@
   },
   "tokenColors": [
     {
-      "scope": ["bold", "variable.other.readwrite.instance", "entity.other.attribute-name.id", "entity.name.tag.id.haml", "entity.other.attribute-name.id.html", "variable.other.block.ruby"],
+      "scope": [
+        "bold",
+        "variable.other.readwrite.instance",
+        "variable.other.readwrite.js",
+        "variable.parameter",
+        "variable.other.ruby",
+        "entity.other.attribute-name.id",
+        "entity.name.tag.id.haml",
+        "entity.other.attribute-name.id.html",
+        "variable.other.block.ruby"
+      ],
       "settings": {
         "fontStyle": "bold"
       }
@@ -271,7 +281,6 @@
         "keyword.operator.comparison",
         "keyword.control.module.ruby",
         "keyword.control.class.ruby",
-        "keyword.control.def.ruby",
         "keyword.operator.relational",
         "string.regexp",
         "string.regexp keyword.other",
@@ -293,6 +302,7 @@
     {
       "scope": [
         "blue",
+        "punctuation.accessor",
         "entity.name.function",
         "entity.name.tag.yaml",
         "punctuation.separator.method.ruby",
@@ -372,6 +382,7 @@
         "blue-soft",
         "punctuation.definition.parameters",
         "entity.name.tag.haml",
+        "keyword.control.def.ruby",
         "storage.type.js",
         "meta.tag",
         "entity.name.tag",
@@ -437,6 +448,7 @@
     {
       "scope": [
         "777777",
+        "variable.parameter",
         "support.type.property-name.json",
         "string.quoted.double.json punctuation.definition.string.json",
         "support.function.misc.scss",
@@ -458,6 +470,7 @@
     {
       "scope": [
         "purple",
+        "variable.other.readwrite.instance",
         "constant.numeric",
         "constant.character.numeric",
         "variable.scss",
@@ -595,7 +608,6 @@
         "keyword.other.unit.sass",
         "markup.italic.markdown",
         "meta.var.expr",
-        "punctuation.accessor",
         "keyword",
         "source.elixir .punctuation.binary.elixir",
         "keyword.control.loop.js",

@@ -511,7 +511,6 @@
         "meta.attribute-selector.sass entity.other.attribute-name.attribute",
         "support.class.component.js",
         "support.class.component.tsx",
-        "constant.numeric",
         "constant.character.numeric",
         "constant.character.escape",
         "constant.other.color",
@@ -555,6 +554,7 @@
       "scope": [
         "pink",
         "constant.language",
+        "constant.numeric",
         "support.class",
         "markup.underline.link.markdown",
         "markup.underline.link.image.markdown",
