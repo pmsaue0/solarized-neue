@@ -23,6 +23,11 @@
         "path": "./themes/Solarized-Neue-color-theme.json"
       },
       {
+        "label": "Solarized Neue Bright",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Solarized-Neue-Bright-color-theme.json"
+      },
+      {
         "label": "Solarized Yuki",
         "uiTheme": "vs",
         "path": "./themes/Solarized-Yuki-color-theme.json"
