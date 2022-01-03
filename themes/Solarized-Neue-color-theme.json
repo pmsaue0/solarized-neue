@@ -3,10 +3,10 @@
   "name": "Solarized Neue",
   "colors": {
     "focusBorder": "#FFFFFF00",
+    "selection.background": "#F35717dd",
     "editorRuler.foreground": "#42424270",
     "scrollbar.shadow": "#21212100",
     "editorLink.activeForeground": "#EEFFFF",
-    "selection.background": "#EEFFFF",
     "progressBar.background": "#80CBC4",
     "textLink.foreground": "#80CBC4",
     "textLink.activeForeground": "#EEFFFF",
