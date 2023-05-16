@@ -1,4 +1,4 @@
-# Solarized Neue & Yuki ☀❅
+# Solarized Neue & Yuki ❅
 
 Elegant theme with color-tokens I've been refining for years. Dev focus on CSS, SCSS, HTML, HAML, RUBY, JS.
 
