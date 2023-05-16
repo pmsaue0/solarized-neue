@@ -7,7 +7,7 @@
     "foreground": "#403f53",
     "focusBorder": "#93A1A1",
     "errorForeground": "#403f53",
-    "selection.background": "#FFAA00",
+    "selection.background": "#B1B0E6",
     "descriptionForeground": "#403f53",
     "widget.shadow": "#d9d9d9",
     "titleBar.activeBackground": "#F0F0F0",
@@ -21,7 +21,7 @@
     "notificationCenterHeader.foreground": "#403f53",
     "notificationCenterHeader.background": "#F0F0F0",
     // Buttons
-    "button.background": "#2AA298",
+    "button.background": "#8382E6",
     "button.foreground": "#F0F0F0",
     // Dropdown
     "dropdown.background": "#F0F0F0",
@@ -32,7 +32,7 @@
     "input.foreground": "#403f53",
     "input.border": "#d9d9d9",
     "input.placeholderForeground": "#93A1A1",
-    "inputOption.activeBorder": "#2AA298",
+    "inputOption.activeBorder": "#8382E6",
     "inputValidation.infoBorder": "#D0D0D0",
     "inputValidation.infoBackground": "#F0F0F0",
     "inputValidation.warningBackground": "#daaa01",
@@ -40,10 +40,10 @@
     "inputValidation.errorBackground": "#f76e6e",
     "inputValidation.errorBorder": "#de3d3b",
     // Badge
-    "badge.background": "#2AA298",
+    "badge.background": "#8382E6",
     "badge.foreground": "#F0F0F0",
     // Progress Bar
-    "progressBar.background": "#2AA298",
+    "progressBar.background": "#8382E6",
     // List and Trees
     "list.activeSelectionForeground": "#403f53",
     "list.activeSelectionBackground": "#0B0DAD18",
@@ -78,7 +78,7 @@
     "editorGroupHeader.tabsBackground": "#F0F0F0",
     "editorGroupHeader.tabsBorder": "#F0F0F0",
     "editorGroupHeader.noTabsBackground": "#F0F0F0",
-    "tab.activeModifiedBorder": "#2AA298",
+    "tab.activeModifiedBorder": "#8382E6",
     "tab.inactiveModifiedBorder": "#93A1A1",
     "tab.unfocusedActiveModifiedBorder": "#93A1A1",
     "tab.unfocusedInactiveModifiedBorder": "#93A1A1",
@@ -102,7 +102,7 @@
     "editorIndentGuide.background": "#d9d9d9",
     "editorCodeLens.foreground": "#403f53",
     "editorBracketMatch.background": "#d3e8f8",
-    "editorBracketMatch.border": "#2AA298",
+    "editorBracketMatch.border": "#8382E6",
     "editorError.foreground": "#E64D49",
     "editorError.border": "#FBFBFB",
     "editorWarning.foreground": "#daaa01",
@@ -134,7 +134,7 @@
     "pickerGroup.border": "#d9d9d9",
     "pickerGroup.foreground": "#403f53",
     // Extension
-    "extensionButton.prominentBackground": "#2AA298",
+    "extensionButton.prominentBackground": "#8382E6",
     "extensionButton.prominentForeground": "#F0F0F0",
     // Status Bar
     "statusBar.background": "#F0F0F0",
@@ -166,8 +166,8 @@
     "terminal.ansiBlack": "#403f53",
     "terminal.ansiBrightBlue": "#288ed7",
     "terminal.ansiBlue": "#288ed7",
-    "terminal.ansiBrightCyan": "#2AA298",
-    "terminal.ansiCyan": "#2AA298",
+    "terminal.ansiBrightCyan": "#8382E6",
+    "terminal.ansiCyan": "#8382E6",
     "terminal.ansiBrightGreen": "#08916a",
     "terminal.ansiGreen": "#08916a",
     "terminal.ansiBrightMagenta": "#d6438a",
@@ -191,7 +191,8 @@
         "variable",
         "entity.name.type.class.ruby",
         "entity.other.attribute-name.id",
-        "entity.name.tag.id.haml"
+        "entity.name.tag.id.haml",
+        "meta.definition.function.ts entity.name.function.ts"
       ],
       "settings": {
         "fontStyle": "bold"

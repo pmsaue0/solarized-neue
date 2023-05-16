@@ -192,7 +192,8 @@
         "variable",
         "entity.name.type.class.ruby",
         "entity.other.attribute-name.id",
-        "entity.name.tag.id.haml"
+        "entity.name.tag.id.haml",
+        "meta.definition.function.ts entity.name.function.ts"
       ],
       "settings": {
         "fontStyle": "bold"
